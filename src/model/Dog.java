@@ -11,10 +11,6 @@ public class Dog extends Animal{
 		this.raca = raca;
 	}
 
-	@Override
-	public String toString() {
-		return "Dog [raca=" + raca + "]";
-	}
 
 }
 	

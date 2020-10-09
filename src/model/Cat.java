@@ -10,9 +10,6 @@ public class Cat extends Animal {
 	public void setRaca(String raca) {
 		this.raca = raca;
 	}
-
-	@Override
-	public String toString() {
-		return "Dog [raca=" + raca + "]";
-	}
 }
+
+
