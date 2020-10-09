@@ -36,13 +36,13 @@ public class ExecutaSistema {
 
 		case 2:
 			cachorro = new Dog();
-			System.out.println("Digite o nome do seu gato");
+			System.out.println("Digite o nome do seu cachorro");
 			cachorro.setNome(sc.nextLine());
 
-			System.out.println("Digite a idade do seu gato");
+			System.out.println("Digite a idade do seu cachorro");
 			cachorro.setIdade(Integer.parseInt(sc.nextLine()));
 
-			System.out.println("Digite a raça do seu gato");
+			System.out.println("Digite a raça do seu cachorro");
 			cachorro.setRaca(sc.nextLine());
 
 			break;
